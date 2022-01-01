@@ -1,8 +1,9 @@
 @media only screen and (max-width: 700px) {
 
-    .first-page-info{
+    .first-page-info {
         width: 24rem;
-        
+        height: 36rem;
+        border: 2px solid;
     }
 
     .info-text{
@@ -19,6 +20,7 @@
     }
     .boxes{
         flex-direction: column;
+        height: 62vh;
     }
 
     .container{
@@ -29,10 +31,9 @@
         width: 23rem;
     }
     
-    .phone-images{
-        width: 23rem;
-        height: 339px;
-
+    .phone-images {
+        width: 22rem;
+        height: 330px;
     }
 
     .box2{
@@ -83,14 +84,16 @@
     }
 
     .box-1{
-        
-        height: 19vh;
-        width: 47vw;
+        margin-top: 5rem;
+        height: 22rem;
+        width: 21rem;
         flex-direction: column;
     }
 
-    .box-2{
-        height: 16vh;
+    .box2 {
+        width: 360px;
+        height: 40rem;
+        border: 2px solid;
     }
 
     .grid-container {
@@ -228,4 +231,12 @@
         width: 26vw;
     }
 
+    .container-3-heading{
+        height: 47vh;
+    }
+
+    .container-4-boxes {
+        height: 27vh;
+        width: 29vh;
+    }
 }
